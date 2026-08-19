@@ -1,0 +1,19 @@
+{
+  "name": "koma-gif",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build --base=/koma-gif/",
+    "preview": "vite preview",
+    "test": "node --test",
+    "test:browser": "node scripts/smoke-browser.mjs"
+  },
+  "dependencies": {
+    "gifenc": "^1.0.3"
+  },
+  "devDependencies": {
+    "vite": "^7.1.3"
+  }
+}
